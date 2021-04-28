@@ -1,0 +1,17 @@
+state={
+	id=971
+	name="STATE_971"
+	manpower=34500
+	state_category=state_level_3
+	history = {
+		owner = CSA
+		buildings = {
+			infrastructure=3
+		}
+	add_core_of = USA
+	add_core_of = CSA
+	}
+	provinces = {
+		13302 13303 13304
+	}
+}

@@ -1,6 +1,6 @@
-﻿capital = 366
+capital = 366
 
-oob = "generic_2000"
+oob = "CSA_2000"
 
 set_research_slots = 4
 set_convoys = 200
@@ -91,25 +91,11 @@ set_technology = {
 	excavation1 = 1
 }
 
+set_popularities = {
+	conservative = 61
+	social_liberal = 39
+}
 set_politics = {
-
-	parties = {
-		conservative = {
-			popularity = 40
-		}
-		social_liberal = {
-			popularity = 35
-		}
-		market_liberal = {
-			popularity = 14
-		}
-		progressive = {
-			popularity = 9
-		}
-		fascist = {
-			popularity = 2
-		}
-	}
 	ruling_party = conservative
 	last_election = "1997.1.1"
 	election_frequency = 48

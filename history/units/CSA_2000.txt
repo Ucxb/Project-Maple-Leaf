@@ -1,0 +1,276 @@
+division_template = {
+	name = "Confederate Militia"
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 0 y = 3 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 0 }
+		artillery = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Military Police Regiment"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Reserve Brigade"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	
+	support = {
+		field_hospital = { x = 0 y = 0 }
+	}
+	
+	priority = 0
+}
+
+division_template = {
+	name = "Parabattalion"
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+		paratrooper = { x = 0 y = 2 }
+		paratrooper = { x = 0 y = 3 }
+	}
+	
+	priority = 2
+}
+
+division_template = {
+	name = "Armored Brigade"
+	
+	regiments = {
+		modern_armor = { x = 0 y = 0 }
+		modern_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	
+	priority = 2
+}
+units = {
+
+	division = {
+		name = "1st Atlanta Defense Militia"
+		location = 12384
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "9th Militia of South Carolina"
+		location = 12384
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "10th Brigade 'Groundhogs'"
+		location = 12384
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "21st Cavalry Brigade"
+		location = 13296
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "11th Mountain Boys Militia"
+		location = 13294
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "2nd Atlanta Defense Militia"
+		location = 13295
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "Georgia National Guard"
+		location = 7118
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "South Carolina National Guard"
+		location = 7202
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "North Carolina National Guard"
+		location = 7138
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+
+	}
+	division = {
+		name = "27th Infantry Brigade 'Dixieland'"
+		location = 13298
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "29th Infantry Brigade 'Ole Miss'"
+		location = 13299
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "31st Cavalry Brigade 'Crimson Tide'"
+		location = 13300
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Jackson Militia"
+		location = 13301
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Bragg Militia"
+		location = 13302
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Bedford Forrest Militia"
+		location = 13303
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+	division = {
+		name = "Cherokee Militia"
+		location = 13304
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "Tennessee National Guard"
+		location = 12501
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Alabama National Guard"
+		location = 12735
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Florida Confederate Response Task Force"
+		location = 10407
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "George Washington Militia"
+		location = 1433
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "National Protection Force Militia"
+		location = 1480
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "Florida National Guard Remnants"
+		location = 10380
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.9
+	}
+
+	division = {
+		name = "Jefferson's Militia"
+		location = 1480
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}
+
+	division = {
+		name = "2nd Cavalry Brigade 'Steelheads'"
+		location = 12470
+		division_template = "Armored Brigade"
+		start_experience_factor = 0.8
+	}
+
+	division = {
+		name = "Mississippi National Guard"
+		location = 12328
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "New Orleans Occupational Security Force"
+		location = 7552
+		division_template = "Military Police Regiment"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Louisiana National Guard Defectors"
+		location = 7555
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Arkansas National Guard"
+		location = 12489
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "Oklahoma National Guard"
+		location = 1806
+		division_template = "Reserve Brigade"
+		start_experience_factor = 0.3
+	}
+
+	division = {
+		name = "95th Division Defectors"
+		location = 5103
+		division_template = "Confederate Militia"
+		start_experience_factor = 0.4
+	}

@@ -8,6 +8,10 @@ set_stability = 0.60
 
 set_country_flag = country_language_english
 
+set_autonomy = {
+	target = TEX
+	autonomy_state = integrated_puppet
+}
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -108,29 +112,21 @@ set_technology = {
 	nukes = 1
 }
 set_popularities = {
-	conservative = 23
-	nationalist = 57
-	reactionary = 20
+	conservative = 20
+	nationalist = 23
+	reactionary = 57
 }
 
 set_politics = {
-	ruling_party = nationalist
+	ruling_party = reactionary
 	elections_allowed = no
 }
+declare_war_on = {
+	target = CSA
+	type = annex_everything
+}
 
-if = {
-	limit = {
-		has_dlc = "Together for Victory"
-	}
-	set_autonomy = {
-		target = TEX
-		autonomy_state = integrated_puppet
-	}
-}
-	else = {
-		puppet = TEX
-	}
-}
+
 set_country_flag = has_unique_political_advisors
 
 add_ideas = {
@@ -138,8 +134,6 @@ add_ideas = {
 	american_militarism
 }
 
-create_faction = "Houston Pact"
-add_to_faction = USA
 
 create_country_leader = {
 	name = "Bill Clinton"
@@ -184,8 +178,8 @@ create_country_leader = {
 #}
 
 create_country_leader = {
-	name = "Howard Phillips"
-	picture = "Howard_Phillips.dds"
+	name = "Joint Chiefs of Staff"
+	picture = "JCS.dds"
 	ideology = oligarchist
 }
 

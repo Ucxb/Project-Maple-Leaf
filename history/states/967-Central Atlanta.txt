@@ -1,0 +1,23 @@
+state={
+	id=967
+	name="STATE_967"
+	state_category=state_level_7
+	history = {
+		owner = CSA
+		controller = USA
+		add_core_of = USA
+		add_core_of = CSA
+		buildings = {
+			infrastructure = 7
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 1
+		}
+		victory_points = { 13297 20 }  #Metropolitan Atlanta
+	}
+	provinces={
+		13297 13299 13305
+	}
+	manpower=208000
+	buildings_max_level_factor=1.000
+}

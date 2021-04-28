@@ -1,7 +1,7 @@
 state={
 	id=961
 	name="STATE_961"
-	state_category = 2
+	state_category=state_level_2
 	history = {
 		owner = PAZ
 		add_core_of = USA
