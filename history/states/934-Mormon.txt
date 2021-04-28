@@ -1,0 +1,22 @@
+state={
+	id=934
+	name="STATE_934"
+	history = {
+		owner = NAV
+		add_core_of = NAV
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 6
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+			13283 = { naval_base = 4 }
+		}
+	}
+	provinces={
+		12461 13282 13283 
+	}
+	manpower=1292184
+	buildings_max_level_factor=1.000
+	state_category = city
+}

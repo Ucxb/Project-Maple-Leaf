@@ -1,0 +1,103 @@
+sub_units = {
+
+	corvette = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { screen_ship }
+		need = { corvette = 1 }
+		
+		max_organisation = 30
+
+		
+		supply_consumption = 0.01
+	}
+	
+	frigate = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { screen_ship }
+		need = { frigate = 1 }
+		
+		max_organisation = 35
+
+		
+		supply_consumption = 0.01
+	}
+	
+	destroyer = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 3
+		active = yes
+		type = { screen_ship }
+		need = { destroyer = 1 }
+		
+		max_organisation = 40
+
+		
+		supply_consumption = 0.01
+	}
+	
+	missile_cruiser = {
+		sprite = battle_cruiser
+		map_icon_category = ship
+		priority = 7
+		active = yes
+		type = { capital_ship }
+		need = { missile_cruiser = 1 }
+		supply_consumption = 0.15
+		
+
+		max_organisation = 35
+	}
+	
+	carrier = {
+		sprite = carrier
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { 
+			#capital_ship
+			carrier 
+		}
+		need = { carrier = 1 }
+		supply_consumption = 0.3
+		
+
+		max_organisation = 40
+
+	}
+	
+	LHD = {
+		sprite = carrier
+		map_icon_category = ship
+		priority = 9
+		active = yes
+		type = { capital_ship }
+		need = { LHD = 1 }
+
+		max_organisation = 40
+
+
+		supply_consumption = 0.2
+	}
+	
+	submarine = {
+		sprite = submarine
+		map_icon_category = ship
+		priority = 2
+		active = yes
+		type = { submarine }
+		need = { submarine = 1 }
+		
+		
+		max_organisation = 40
+		
+		supply_consumption = 0.01
+	}
+
+}

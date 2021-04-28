@@ -1,0 +1,17 @@
+state={
+	id=946
+	name="STATE_946"
+	history = {
+		owner = NWA
+		add_core_of = NWA
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1815 4610 4794 4820 7688 7814 10711 12651 
+	}
+	manpower=172142
+	buildings_max_level_factor=1.000
+}

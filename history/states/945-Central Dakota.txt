@@ -1,0 +1,18 @@
+state={
+	id=945
+	name="STATE_945"
+	history = {
+		owner = NWA
+		add_core_of = USA
+		add_core_of = NWA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1		
+		}
+	}
+	provinces={
+		1747 3750 4839 
+	}
+	manpower=189281
+	buildings_max_level_factor=1.000
+}

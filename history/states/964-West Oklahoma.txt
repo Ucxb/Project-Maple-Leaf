@@ -1,0 +1,17 @@
+state={
+	id=964
+	name="STATE_964"
+	state_category=state_level_2
+	history = {
+		owner = NMX
+		add_core_of = NMX
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		12624 
+	}
+	manpower=27812
+	buildings_max_level_factor=1.000
+}

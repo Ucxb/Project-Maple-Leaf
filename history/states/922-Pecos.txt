@@ -1,0 +1,21 @@
+state={
+	id=922
+	name="STATE_922"
+	resources = {
+		oil = 6.000
+	}
+	history = {
+		owner = MEX
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+	}
+	provinces={
+		1954 5038 10740 10894 
+	}
+	manpower=461721
+	buildings_max_level_factor=1.000
+	state_category = city
+}

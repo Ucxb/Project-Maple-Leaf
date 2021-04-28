@@ -1,0 +1,52 @@
+ideologies = {
+
+	bodenist = {
+		
+		types = {
+		
+			bodcap = {
+			}
+		
+			bodenism = {
+			}
+			
+			neobodenism = {
+			}
+			
+			new_school_bodenism = {
+			}
+			
+			democratic_bodenism = {
+			}
+			
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_BODENIST_1"
+			"FACTION_NAME_BODENIST_2"
+			"FACTION_NAME_BODENIST_3"
+			"FACTION_NAME_BODENIST_4"
+			"FACTION_NAME_BODENIST_5"
+			"FACTION_NAME_BODENIST_6"
+		}
+		
+		color = { 0 98 255 }
+		
+		war_impact_on_world_tension = 1
+		faction_impact_on_world_tension = 1
+		
+		rules = {
+			can_guarantee_other_ideologies = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
+		}
+		
+		modifiers = {
+			join_faction_tension = 0.1
+		}
+		
+	}
+
+}

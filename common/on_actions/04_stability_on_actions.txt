@@ -1,0 +1,14 @@
+on_actions = {
+	on_release_as_puppet = {		
+		effect = {
+			ROOT = { country_event = { id = political.0	 } }
+		}
+	}
+
+	#ROOT is free nation FROM is releaser
+	on_release_as_free = {
+		effect = {
+			ROOT = { country_event = { id = political.0	 } }
+		}
+	}
+}

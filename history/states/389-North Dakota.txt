@@ -1,0 +1,36 @@
+
+state={
+	id=389
+	name="STATE_389"
+	resources={
+		steel=1.000
+	}
+
+	history={
+		owner = NWA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 2
+
+		}
+		add_core_of = USA
+		victory_points = {
+			1836 5 
+		}
+		victory_points = {
+			6722 1 
+		}
+		victory_points = {
+			3719 1 
+		}
+
+	}
+
+	provinces={
+		6722 7877 12566 
+	}
+	manpower=891281
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

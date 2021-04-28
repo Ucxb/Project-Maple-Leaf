@@ -1,0 +1,19 @@
+state={
+	id=932
+	name="STATE_932"
+	history = {
+		owner = CAL
+		add_core_of = MEX
+		add_core_of = CAL
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+		}
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		13273 13274 
+	}
+	manpower=1038215
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=936
+	name="STATE_936"
+	history = {
+		owner = CAL
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		13277 13278 
+	}
+	manpower=289143
+	buildings_max_level_factor=1.000
+}

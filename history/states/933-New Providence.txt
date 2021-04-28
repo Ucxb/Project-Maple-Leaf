@@ -1,0 +1,23 @@
+state={
+	id=933
+	name="STATE_933"
+	history = {
+		owner = NAV
+		add_core_of = NAV
+		add_core_of = MEX
+		buildings = {
+			infrastructure = 10
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 5
+			13276 = { naval_base = 5 }
+		}
+		victory_points = { 13276 25 }	#New Providence
+	}
+	provinces={
+		13275 13276 
+	}
+	manpower=2241754
+	buildings_max_level_factor=1.000
+	state_category = metropolis
+}

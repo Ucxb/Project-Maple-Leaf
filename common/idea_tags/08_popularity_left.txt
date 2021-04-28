@@ -1,0 +1,13 @@
+idea_categories = {
+	popularity_left_wing = {
+		slot = popularity_COM
+		slot = popularity_DEMSOC
+		slot = popularity_PROG
+		slot = popularity_SOCDEM
+		slot = popularity_SOCLIB
+		slot = popularity_MARLIB
+		
+		cost = 3000
+		removal_cost = -1
+	}
+}

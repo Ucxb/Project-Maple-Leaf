@@ -1,0 +1,3650 @@
+remove_all_ideological_influences = {
+	remove_ideas = islamist_influence_1
+	remove_ideas = islamist_influence_2
+	remove_ideas = islamist_influence_3
+	remove_ideas = islamist_influence_4
+	remove_ideas = islamist_influence_5
+	remove_ideas = islamist_influence_6
+	remove_ideas = islamist_influence_7
+	remove_ideas = islamist_influence_8
+	remove_ideas = islamist_influence_9
+	remove_ideas = islamist_influence_10
+	remove_ideas = fascist_influence_1
+	remove_ideas = fascist_influence_2
+	remove_ideas = fascist_influence_3
+	remove_ideas = fascist_influence_4
+	remove_ideas = fascist_influence_5
+	remove_ideas = fascist_influence_6
+	remove_ideas = fascist_influence_7
+	remove_ideas = fascist_influence_8
+	remove_ideas = fascist_influence_9
+	remove_ideas = fascist_influence_10
+	remove_ideas = nationalist_influence_1
+	remove_ideas = nationalist_influence_2
+	remove_ideas = nationalist_influence_3
+	remove_ideas = nationalist_influence_4
+	remove_ideas = nationalist_influence_5
+	remove_ideas = nationalist_influence_6
+	remove_ideas = nationalist_influence_7
+	remove_ideas = nationalist_influence_8
+	remove_ideas = nationalist_influence_9
+	remove_ideas = nationalist_influence_10
+	remove_ideas = monarchist_influence_1
+	remove_ideas = monarchist_influence_2
+	remove_ideas = monarchist_influence_3
+	remove_ideas = monarchist_influence_4
+	remove_ideas = monarchist_influence_5
+	remove_ideas = monarchist_influence_6
+	remove_ideas = monarchist_influence_7
+	remove_ideas = monarchist_influence_8
+	remove_ideas = monarchist_influence_9
+	remove_ideas = monarchist_influence_10
+	remove_ideas = reactionary_influence_1
+	remove_ideas = reactionary_influence_2
+	remove_ideas = reactionary_influence_3
+	remove_ideas = reactionary_influence_4
+	remove_ideas = reactionary_influence_5
+	remove_ideas = reactionary_influence_6
+	remove_ideas = reactionary_influence_7
+	remove_ideas = reactionary_influence_8
+	remove_ideas = reactionary_influence_9
+	remove_ideas = reactionary_influence_10
+	remove_ideas = conservative_influence_1
+	remove_ideas = conservative_influence_2
+	remove_ideas = conservative_influence_3
+	remove_ideas = conservative_influence_4
+	remove_ideas = conservative_influence_5
+	remove_ideas = conservative_influence_6
+	remove_ideas = conservative_influence_7
+	remove_ideas = conservative_influence_8
+	remove_ideas = conservative_influence_9
+	remove_ideas = conservative_influence_10
+	remove_ideas = market_liberal_influence_1
+	remove_ideas = market_liberal_influence_2
+	remove_ideas = market_liberal_influence_3
+	remove_ideas = market_liberal_influence_4
+	remove_ideas = market_liberal_influence_5
+	remove_ideas = market_liberal_influence_6
+	remove_ideas = market_liberal_influence_7
+	remove_ideas = market_liberal_influence_8
+	remove_ideas = market_liberal_influence_9
+	remove_ideas = market_liberal_influence_10
+	remove_ideas = social_liberal_influence_1
+	remove_ideas = social_liberal_influence_2
+	remove_ideas = social_liberal_influence_3
+	remove_ideas = social_liberal_influence_4
+	remove_ideas = social_liberal_influence_5
+	remove_ideas = social_liberal_influence_6
+	remove_ideas = social_liberal_influence_7
+	remove_ideas = social_liberal_influence_8
+	remove_ideas = social_liberal_influence_9
+	remove_ideas = social_liberal_influence_10
+	remove_ideas = social_democrat_influence_1
+	remove_ideas = social_democrat_influence_2
+	remove_ideas = social_democrat_influence_3
+	remove_ideas = social_democrat_influence_4
+	remove_ideas = social_democrat_influence_5
+	remove_ideas = social_democrat_influence_6
+	remove_ideas = social_democrat_influence_7
+	remove_ideas = social_democrat_influence_8
+	remove_ideas = social_democrat_influence_9
+	remove_ideas = social_democrat_influence_10
+	remove_ideas = progressive_influence_1
+	remove_ideas = progressive_influence_2
+	remove_ideas = progressive_influence_3
+	remove_ideas = progressive_influence_4
+	remove_ideas = progressive_influence_5
+	remove_ideas = progressive_influence_6
+	remove_ideas = progressive_influence_7
+	remove_ideas = progressive_influence_8
+	remove_ideas = progressive_influence_9
+	remove_ideas = progressive_influence_10
+	remove_ideas = democratic_socialist_influence_1
+	remove_ideas = democratic_socialist_influence_2
+	remove_ideas = democratic_socialist_influence_3
+	remove_ideas = democratic_socialist_influence_4
+	remove_ideas = democratic_socialist_influence_5
+	remove_ideas = democratic_socialist_influence_6
+	remove_ideas = democratic_socialist_influence_7
+	remove_ideas = democratic_socialist_influence_8
+	remove_ideas = democratic_socialist_influence_9
+	remove_ideas = democratic_socialist_influence_10
+	remove_ideas = communist_influence_1
+	remove_ideas = communist_influence_2
+	remove_ideas = communist_influence_3
+	remove_ideas = communist_influence_4
+	remove_ideas = communist_influence_5
+	remove_ideas = communist_influence_6
+	remove_ideas = communist_influence_7
+	remove_ideas = communist_influence_8
+	remove_ideas = communist_influence_9
+	remove_ideas = communist_influence_10
+}
+
+increase_islamist_influence_by_1 = {
+	custom_effect_tooltip = TT_islamist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			swap_ideas = { remove_idea = islamist_influence_3 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			swap_ideas = { remove_idea = islamist_influence_2 add_idea = islamist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			swap_ideas = { remove_idea = islamist_influence_1 add_idea = islamist_influence_2 }
+		}
+		if = {
+			limit = { has_any_islamist_influence = no }
+			add_ideas = islamist_influence_1
+		}
+	}
+}
+
+increase_islamist_influence_by_2 = {
+	custom_effect_tooltip = TT_islamist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			swap_ideas = { remove_idea = islamist_influence_3 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			swap_ideas = { remove_idea = islamist_influence_2 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			swap_ideas = { remove_idea = islamist_influence_1 add_idea = islamist_influence_3 }
+		}
+		if = {
+			limit = { has_any_islamist_influence = no }
+			add_ideas = islamist_influence_2
+		}
+	}
+}
+
+increase_islamist_influence_by_3 = {
+	custom_effect_tooltip = TT_islamist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			swap_ideas = { remove_idea = islamist_influence_3 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			swap_ideas = { remove_idea = islamist_influence_2 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			swap_ideas = { remove_idea = islamist_influence_1 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_any_islamist_influence = no }
+			add_ideas = islamist_influence_3
+		}
+	}
+}
+
+decrease_islamist_influence_by_1 = {
+	custom_effect_tooltip = TT_islamist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_islamist_influence = no }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			remove_ideas = islamist_influence_1
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			swap_ideas = { remove_idea = islamist_influence_2 add_idea = islamist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			swap_ideas = { remove_idea = islamist_influence_3 add_idea = islamist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+			swap_ideas = { remove_idea = islamist_influence_10 add_idea = islamist_influence_9 }
+		}
+	}
+}
+
+decrease_islamist_influence_by_2 = {
+	custom_effect_tooltip = TT_islamist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_islamist_influence = no }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			remove_ideas = islamist_influence_1
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			remove_ideas = islamist_influence_2
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			swap_ideas = { remove_idea = islamist_influence_3 add_idea = islamist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+			swap_ideas = { remove_idea = islamist_influence_10 add_idea = islamist_influence_8 }
+		}
+	}
+}
+
+decrease_islamist_influence_by_3 = {
+	custom_effect_tooltip = TT_islamist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_islamist_influence = no }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_1 }
+			remove_ideas = islamist_influence_1
+		}
+		if = {
+			limit = { has_idea = islamist_influence_2 }
+			remove_ideas = islamist_influence_2
+		}
+		if = {
+			limit = { has_idea = islamist_influence_3 }
+			remove_ideas = islamist_influence_3
+		}
+		if = {
+			limit = { has_idea = islamist_influence_4 }
+			swap_ideas = { remove_idea = islamist_influence_4 add_idea = islamist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_5 }
+			swap_ideas = { remove_idea = islamist_influence_5 add_idea = islamist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_6 }
+			swap_ideas = { remove_idea = islamist_influence_6 add_idea = islamist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_7 }
+			swap_ideas = { remove_idea = islamist_influence_7 add_idea = islamist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_8 }
+			swap_ideas = { remove_idea = islamist_influence_8 add_idea = islamist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_9 }
+			swap_ideas = { remove_idea = islamist_influence_9 add_idea = islamist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = islamist_influence_10 }
+			swap_ideas = { remove_idea = islamist_influence_10 add_idea = islamist_influence_7 }
+		}
+	}
+}
+
+increase_fascist_influence_by_1 = {
+	custom_effect_tooltip = TT_fascist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			swap_ideas = { remove_idea = fascist_influence_3 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			swap_ideas = { remove_idea = fascist_influence_2 add_idea = fascist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			swap_ideas = { remove_idea = fascist_influence_1 add_idea = fascist_influence_2 }
+		}
+		if = {
+			limit = { has_any_fascist_influence = no }
+			add_ideas = fascist_influence_1
+		}
+	}
+}
+
+increase_fascist_influence_by_2 = {
+	custom_effect_tooltip = TT_fascist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			swap_ideas = { remove_idea = fascist_influence_3 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			swap_ideas = { remove_idea = fascist_influence_2 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			swap_ideas = { remove_idea = fascist_influence_1 add_idea = fascist_influence_3 }
+		}
+		if = {
+			limit = { has_any_fascist_influence = no }
+			add_ideas = fascist_influence_2
+		}
+	}
+}
+
+increase_fascist_influence_by_3 = {
+	custom_effect_tooltip = TT_fascist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			swap_ideas = { remove_idea = fascist_influence_3 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			swap_ideas = { remove_idea = fascist_influence_2 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			swap_ideas = { remove_idea = fascist_influence_1 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_any_fascist_influence = no }
+			add_ideas = fascist_influence_3
+		}
+	}
+}
+
+decrease_fascist_influence_by_1 = {
+	custom_effect_tooltip = TT_fascist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_fascist_influence = no }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			remove_ideas = fascist_influence_1
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			swap_ideas = { remove_idea = fascist_influence_2 add_idea = fascist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			swap_ideas = { remove_idea = fascist_influence_3 add_idea = fascist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+			swap_ideas = { remove_idea = fascist_influence_10 add_idea = fascist_influence_9 }
+		}
+	}
+}
+
+decrease_fascist_influence_by_2 = {
+	custom_effect_tooltip = TT_fascist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_fascist_influence = no }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			remove_ideas = fascist_influence_1
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			remove_ideas = fascist_influence_2
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			swap_ideas = { remove_idea = fascist_influence_3 add_idea = fascist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+			swap_ideas = { remove_idea = fascist_influence_10 add_idea = fascist_influence_8 }
+		}
+	}
+}
+
+decrease_fascist_influence_by_3 = {
+	custom_effect_tooltip = TT_fascist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_fascist_influence = no }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_1 }
+			remove_ideas = fascist_influence_1
+		}
+		if = {
+			limit = { has_idea = fascist_influence_2 }
+			remove_ideas = fascist_influence_2
+		}
+		if = {
+			limit = { has_idea = fascist_influence_3 }
+			remove_ideas = fascist_influence_3
+		}
+		if = {
+			limit = { has_idea = fascist_influence_4 }
+			swap_ideas = { remove_idea = fascist_influence_4 add_idea = fascist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_5 }
+			swap_ideas = { remove_idea = fascist_influence_5 add_idea = fascist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_6 }
+			swap_ideas = { remove_idea = fascist_influence_6 add_idea = fascist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_7 }
+			swap_ideas = { remove_idea = fascist_influence_7 add_idea = fascist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_8 }
+			swap_ideas = { remove_idea = fascist_influence_8 add_idea = fascist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_9 }
+			swap_ideas = { remove_idea = fascist_influence_9 add_idea = fascist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = fascist_influence_10 }
+			swap_ideas = { remove_idea = fascist_influence_10 add_idea = fascist_influence_7 }
+		}
+	}
+}
+
+increase_nationalist_influence_by_1 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			swap_ideas = { remove_idea = nationalist_influence_3 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			swap_ideas = { remove_idea = nationalist_influence_2 add_idea = nationalist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			swap_ideas = { remove_idea = nationalist_influence_1 add_idea = nationalist_influence_2 }
+		}
+		if = {
+			limit = { has_any_nationalist_influence = no }
+			add_ideas = nationalist_influence_1
+		}
+	}
+}
+
+increase_nationalist_influence_by_2 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			swap_ideas = { remove_idea = nationalist_influence_3 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			swap_ideas = { remove_idea = nationalist_influence_2 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			swap_ideas = { remove_idea = nationalist_influence_1 add_idea = nationalist_influence_3 }
+		}
+		if = {
+			limit = { has_any_nationalist_influence = no }
+			add_ideas = nationalist_influence_2
+		}
+	}
+}
+
+increase_nationalist_influence_by_3 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			swap_ideas = { remove_idea = nationalist_influence_3 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			swap_ideas = { remove_idea = nationalist_influence_2 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			swap_ideas = { remove_idea = nationalist_influence_1 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_any_nationalist_influence = no }
+			add_ideas = nationalist_influence_3
+		}
+	}
+}
+
+decrease_nationalist_influence_by_1 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_nationalist_influence = no }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			remove_ideas = nationalist_influence_1
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			swap_ideas = { remove_idea = nationalist_influence_2 add_idea = nationalist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			swap_ideas = { remove_idea = nationalist_influence_3 add_idea = nationalist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+			swap_ideas = { remove_idea = nationalist_influence_10 add_idea = nationalist_influence_9 }
+		}
+	}
+}
+
+decrease_nationalist_influence_by_2 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_nationalist_influence = no }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			remove_ideas = nationalist_influence_1
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			remove_ideas = nationalist_influence_2
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			swap_ideas = { remove_idea = nationalist_influence_3 add_idea = nationalist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+			swap_ideas = { remove_idea = nationalist_influence_10 add_idea = nationalist_influence_8 }
+		}
+	}
+}
+
+decrease_nationalist_influence_by_3 = {
+	custom_effect_tooltip = TT_nationalist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_nationalist_influence = no }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_1 }
+			remove_ideas = nationalist_influence_1
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_2 }
+			remove_ideas = nationalist_influence_2
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_3 }
+			remove_ideas = nationalist_influence_3
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_4 }
+			swap_ideas = { remove_idea = nationalist_influence_4 add_idea = nationalist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_5 }
+			swap_ideas = { remove_idea = nationalist_influence_5 add_idea = nationalist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_6 }
+			swap_ideas = { remove_idea = nationalist_influence_6 add_idea = nationalist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_7 }
+			swap_ideas = { remove_idea = nationalist_influence_7 add_idea = nationalist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_8 }
+			swap_ideas = { remove_idea = nationalist_influence_8 add_idea = nationalist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_9 }
+			swap_ideas = { remove_idea = nationalist_influence_9 add_idea = nationalist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = nationalist_influence_10 }
+			swap_ideas = { remove_idea = nationalist_influence_10 add_idea = nationalist_influence_7 }
+		}
+	}
+}
+
+increase_monarchist_influence_by_1 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			swap_ideas = { remove_idea = monarchist_influence_3 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			swap_ideas = { remove_idea = monarchist_influence_2 add_idea = monarchist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			swap_ideas = { remove_idea = monarchist_influence_1 add_idea = monarchist_influence_2 }
+		}
+		if = {
+			limit = { has_any_monarchist_influence = no }
+			add_ideas = monarchist_influence_1
+		}
+	}
+}
+
+increase_monarchist_influence_by_2 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			swap_ideas = { remove_idea = monarchist_influence_3 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			swap_ideas = { remove_idea = monarchist_influence_2 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			swap_ideas = { remove_idea = monarchist_influence_1 add_idea = monarchist_influence_3 }
+		}
+		if = {
+			limit = { has_any_monarchist_influence = no }
+			add_ideas = monarchist_influence_2
+		}
+	}
+}
+
+increase_monarchist_influence_by_3 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			swap_ideas = { remove_idea = monarchist_influence_3 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			swap_ideas = { remove_idea = monarchist_influence_2 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			swap_ideas = { remove_idea = monarchist_influence_1 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_any_monarchist_influence = no }
+			add_ideas = monarchist_influence_3
+		}
+	}
+}
+
+decrease_monarchist_influence_by_1 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_monarchist_influence = no }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			remove_ideas = monarchist_influence_1
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			swap_ideas = { remove_idea = monarchist_influence_2 add_idea = monarchist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			swap_ideas = { remove_idea = monarchist_influence_3 add_idea = monarchist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+			swap_ideas = { remove_idea = monarchist_influence_10 add_idea = monarchist_influence_9 }
+		}
+	}
+}
+
+decrease_monarchist_influence_by_2 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_monarchist_influence = no }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			remove_ideas = monarchist_influence_1
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			remove_ideas = monarchist_influence_2
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			swap_ideas = { remove_idea = monarchist_influence_3 add_idea = monarchist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+			swap_ideas = { remove_idea = monarchist_influence_10 add_idea = monarchist_influence_8 }
+		}
+	}
+}
+
+decrease_monarchist_influence_by_3 = {
+	custom_effect_tooltip = TT_monarchist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_monarchist_influence = no }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_1 }
+			remove_ideas = monarchist_influence_1
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_2 }
+			remove_ideas = monarchist_influence_2
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_3 }
+			remove_ideas = monarchist_influence_3
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_4 }
+			swap_ideas = { remove_idea = monarchist_influence_4 add_idea = monarchist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_5 }
+			swap_ideas = { remove_idea = monarchist_influence_5 add_idea = monarchist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_6 }
+			swap_ideas = { remove_idea = monarchist_influence_6 add_idea = monarchist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_7 }
+			swap_ideas = { remove_idea = monarchist_influence_7 add_idea = monarchist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_8 }
+			swap_ideas = { remove_idea = monarchist_influence_8 add_idea = monarchist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_9 }
+			swap_ideas = { remove_idea = monarchist_influence_9 add_idea = monarchist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = monarchist_influence_10 }
+			swap_ideas = { remove_idea = monarchist_influence_10 add_idea = monarchist_influence_7 }
+		}
+	}
+}
+
+increase_reactionary_influence_by_1 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_9 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_8 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_7 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			swap_ideas = { remove_idea = reactionary_influence_3 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			swap_ideas = { remove_idea = reactionary_influence_2 add_idea = reactionary_influence_3 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			swap_ideas = { remove_idea = reactionary_influence_1 add_idea = reactionary_influence_2 }
+		}
+		if = {
+			limit = { has_any_reactionary_influence = no }
+			add_ideas = reactionary_influence_1
+		}
+	}
+}
+
+increase_reactionary_influence_by_2 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_9 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_8 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_7 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			swap_ideas = { remove_idea = reactionary_influence_3 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			swap_ideas = { remove_idea = reactionary_influence_2 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			swap_ideas = { remove_idea = reactionary_influence_1 add_idea = reactionary_influence_3 }
+		}
+		if = {
+			limit = { has_any_reactionary_influence = no }
+			add_ideas = reactionary_influence_2
+		}
+	}
+}
+
+increase_reactionary_influence_by_3 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_10 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_9 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_8 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_7 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			swap_ideas = { remove_idea = reactionary_influence_3 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			swap_ideas = { remove_idea = reactionary_influence_2 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			swap_ideas = { remove_idea = reactionary_influence_1 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_any_reactionary_influence = no }
+			add_ideas = reactionary_influence_3
+		}
+	}
+}
+
+decrease_reactionary_influence_by_1 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_reactionary_influence = no }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			remove_ideas = reactionary_influence_1
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			swap_ideas = { remove_idea = reactionary_influence_2 add_idea = reactionary_influence_1 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			swap_ideas = { remove_idea = reactionary_influence_3 add_idea = reactionary_influence_2 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_3 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_7 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_8 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+			swap_ideas = { remove_idea = reactionary_influence_10 add_idea = reactionary_influence_9 }
+		}
+	}
+}
+
+decrease_reactionary_influence_by_2 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_reactionary_influence = no }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			remove_ideas = reactionary_influence_1
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			remove_ideas = reactionary_influence_2
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			swap_ideas = { remove_idea = reactionary_influence_3 add_idea = reactionary_influence_1 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_2 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_3 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_7 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+			swap_ideas = { remove_idea = reactionary_influence_10 add_idea = reactionary_influence_8 }
+		}
+	}
+}
+
+decrease_reactionary_influence_by_3 = {
+	custom_effect_tooltip = TT_reactionary_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_reactionary_influence = no }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_1 }
+			remove_ideas = reactionary_influence_1
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_2 }
+			remove_ideas = reactionary_influence_2
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_3 }
+			remove_ideas = reactionary_influence_3
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_4 }
+			swap_ideas = { remove_idea = reactionary_influence_4 add_idea = reactionary_influence_1 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_5 }
+			swap_ideas = { remove_idea = reactionary_influence_5 add_idea = reactionary_influence_2 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_6 }
+			swap_ideas = { remove_idea = reactionary_influence_6 add_idea = reactionary_influence_3 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_7 }
+			swap_ideas = { remove_idea = reactionary_influence_7 add_idea = reactionary_influence_4 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_8 }
+			swap_ideas = { remove_idea = reactionary_influence_8 add_idea = reactionary_influence_5 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_9 }
+			swap_ideas = { remove_idea = reactionary_influence_9 add_idea = reactionary_influence_6 }
+		}
+		if = {
+			limit = { has_idea = reactionary_influence_10 }
+			swap_ideas = { remove_idea = reactionary_influence_10 add_idea = reactionary_influence_7 }
+		}
+	}
+}
+
+increase_conservative_influence_by_1 = {
+	custom_effect_tooltip = TT_conservative_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_9 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_8 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_7 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			swap_ideas = { remove_idea = conservative_influence_3 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			swap_ideas = { remove_idea = conservative_influence_2 add_idea = conservative_influence_3 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			swap_ideas = { remove_idea = conservative_influence_1 add_idea = conservative_influence_2 }
+		}
+		if = {
+			limit = { has_any_conservative_influence = no }
+			add_ideas = conservative_influence_1
+		}
+	}
+}
+
+increase_conservative_influence_by_2 = {
+	custom_effect_tooltip = TT_conservative_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_9 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_8 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_7 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			swap_ideas = { remove_idea = conservative_influence_3 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			swap_ideas = { remove_idea = conservative_influence_2 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			swap_ideas = { remove_idea = conservative_influence_1 add_idea = conservative_influence_3 }
+		}
+		if = {
+			limit = { has_any_conservative_influence = no }
+			add_ideas = conservative_influence_2
+		}
+	}
+}
+
+increase_conservative_influence_by_3 = {
+	custom_effect_tooltip = TT_conservative_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_10 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_9 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_8 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_7 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			swap_ideas = { remove_idea = conservative_influence_3 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			swap_ideas = { remove_idea = conservative_influence_2 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			swap_ideas = { remove_idea = conservative_influence_1 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_any_conservative_influence = no }
+			add_ideas = conservative_influence_3
+		}
+	}
+}
+
+decrease_conservative_influence_by_1 = {
+	custom_effect_tooltip = TT_conservative_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_conservative_influence = no }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			remove_ideas = conservative_influence_1
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			swap_ideas = { remove_idea = conservative_influence_2 add_idea = conservative_influence_1 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			swap_ideas = { remove_idea = conservative_influence_3 add_idea = conservative_influence_2 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_3 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_7 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_8 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+			swap_ideas = { remove_idea = conservative_influence_10 add_idea = conservative_influence_9 }
+		}
+	}
+}
+
+decrease_conservative_influence_by_2 = {
+	custom_effect_tooltip = TT_conservative_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_conservative_influence = no }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			remove_ideas = conservative_influence_1
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			remove_ideas = conservative_influence_2
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			swap_ideas = { remove_idea = conservative_influence_3 add_idea = conservative_influence_1 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_2 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_3 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_7 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+			swap_ideas = { remove_idea = conservative_influence_10 add_idea = conservative_influence_8 }
+		}
+	}
+}
+
+decrease_conservative_influence_by_3 = {
+	custom_effect_tooltip = TT_conservative_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_conservative_influence = no }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_1 }
+			remove_ideas = conservative_influence_1
+		}
+		if = {
+			limit = { has_idea = conservative_influence_2 }
+			remove_ideas = conservative_influence_2
+		}
+		if = {
+			limit = { has_idea = conservative_influence_3 }
+			remove_ideas = conservative_influence_3
+		}
+		if = {
+			limit = { has_idea = conservative_influence_4 }
+			swap_ideas = { remove_idea = conservative_influence_4 add_idea = conservative_influence_1 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_5 }
+			swap_ideas = { remove_idea = conservative_influence_5 add_idea = conservative_influence_2 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_6 }
+			swap_ideas = { remove_idea = conservative_influence_6 add_idea = conservative_influence_3 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_7 }
+			swap_ideas = { remove_idea = conservative_influence_7 add_idea = conservative_influence_4 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_8 }
+			swap_ideas = { remove_idea = conservative_influence_8 add_idea = conservative_influence_5 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_9 }
+			swap_ideas = { remove_idea = conservative_influence_9 add_idea = conservative_influence_6 }
+		}
+		if = {
+			limit = { has_idea = conservative_influence_10 }
+			swap_ideas = { remove_idea = conservative_influence_10 add_idea = conservative_influence_7 }
+		}
+	}
+}
+
+increase_market_liberal_influence_by_1 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			swap_ideas = { remove_idea = market_liberal_influence_3 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			swap_ideas = { remove_idea = market_liberal_influence_2 add_idea = market_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			swap_ideas = { remove_idea = market_liberal_influence_1 add_idea = market_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+			add_ideas = market_liberal_influence_1
+		}
+	}
+}
+
+increase_market_liberal_influence_by_2 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			swap_ideas = { remove_idea = market_liberal_influence_3 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			swap_ideas = { remove_idea = market_liberal_influence_2 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			swap_ideas = { remove_idea = market_liberal_influence_1 add_idea = market_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+			add_ideas = market_liberal_influence_2
+		}
+	}
+}
+
+increase_market_liberal_influence_by_3 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			swap_ideas = { remove_idea = market_liberal_influence_3 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			swap_ideas = { remove_idea = market_liberal_influence_2 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			swap_ideas = { remove_idea = market_liberal_influence_1 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+			add_ideas = market_liberal_influence_3
+		}
+	}
+}
+
+decrease_market_liberal_influence_by_1 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			remove_ideas = market_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			swap_ideas = { remove_idea = market_liberal_influence_2 add_idea = market_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			swap_ideas = { remove_idea = market_liberal_influence_3 add_idea = market_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+			swap_ideas = { remove_idea = market_liberal_influence_10 add_idea = market_liberal_influence_9 }
+		}
+	}
+}
+
+decrease_market_liberal_influence_by_2 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			remove_ideas = market_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			remove_ideas = market_liberal_influence_2
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			swap_ideas = { remove_idea = market_liberal_influence_3 add_idea = market_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+			swap_ideas = { remove_idea = market_liberal_influence_10 add_idea = market_liberal_influence_8 }
+		}
+	}
+}
+
+decrease_market_liberal_influence_by_3 = {
+	custom_effect_tooltip = TT_market_liberal_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_market_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_1 }
+			remove_ideas = market_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_2 }
+			remove_ideas = market_liberal_influence_2
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_3 }
+			remove_ideas = market_liberal_influence_3
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_4 }
+			swap_ideas = { remove_idea = market_liberal_influence_4 add_idea = market_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_5 }
+			swap_ideas = { remove_idea = market_liberal_influence_5 add_idea = market_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_6 }
+			swap_ideas = { remove_idea = market_liberal_influence_6 add_idea = market_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_7 }
+			swap_ideas = { remove_idea = market_liberal_influence_7 add_idea = market_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_8 }
+			swap_ideas = { remove_idea = market_liberal_influence_8 add_idea = market_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_9 }
+			swap_ideas = { remove_idea = market_liberal_influence_9 add_idea = market_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = market_liberal_influence_10 }
+			swap_ideas = { remove_idea = market_liberal_influence_10 add_idea = market_liberal_influence_7 }
+		}
+	}
+}
+
+increase_social_liberal_influence_by_1 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			swap_ideas = { remove_idea = social_liberal_influence_3 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			swap_ideas = { remove_idea = social_liberal_influence_2 add_idea = social_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			swap_ideas = { remove_idea = social_liberal_influence_1 add_idea = social_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+			add_ideas = social_liberal_influence_1
+		}
+	}
+}
+
+increase_social_liberal_influence_by_2 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			swap_ideas = { remove_idea = social_liberal_influence_3 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			swap_ideas = { remove_idea = social_liberal_influence_2 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			swap_ideas = { remove_idea = social_liberal_influence_1 add_idea = social_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+			add_ideas = social_liberal_influence_2
+		}
+	}
+}
+
+increase_social_liberal_influence_by_3 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			swap_ideas = { remove_idea = social_liberal_influence_3 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			swap_ideas = { remove_idea = social_liberal_influence_2 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			swap_ideas = { remove_idea = social_liberal_influence_1 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+			add_ideas = social_liberal_influence_3
+		}
+	}
+}
+
+decrease_social_liberal_influence_by_1 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			remove_ideas = social_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			swap_ideas = { remove_idea = social_liberal_influence_2 add_idea = social_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			swap_ideas = { remove_idea = social_liberal_influence_3 add_idea = social_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+			swap_ideas = { remove_idea = social_liberal_influence_10 add_idea = social_liberal_influence_9 }
+		}
+	}
+}
+
+decrease_social_liberal_influence_by_2 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			remove_ideas = social_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			remove_ideas = social_liberal_influence_2
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			swap_ideas = { remove_idea = social_liberal_influence_3 add_idea = social_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+			swap_ideas = { remove_idea = social_liberal_influence_10 add_idea = social_liberal_influence_8 }
+		}
+	}
+}
+
+decrease_social_liberal_influence_by_3 = {
+	custom_effect_tooltip = TT_social_liberal_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_liberal_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_1 }
+			remove_ideas = social_liberal_influence_1
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_2 }
+			remove_ideas = social_liberal_influence_2
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_3 }
+			remove_ideas = social_liberal_influence_3
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_4 }
+			swap_ideas = { remove_idea = social_liberal_influence_4 add_idea = social_liberal_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_5 }
+			swap_ideas = { remove_idea = social_liberal_influence_5 add_idea = social_liberal_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_6 }
+			swap_ideas = { remove_idea = social_liberal_influence_6 add_idea = social_liberal_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_7 }
+			swap_ideas = { remove_idea = social_liberal_influence_7 add_idea = social_liberal_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_8 }
+			swap_ideas = { remove_idea = social_liberal_influence_8 add_idea = social_liberal_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_9 }
+			swap_ideas = { remove_idea = social_liberal_influence_9 add_idea = social_liberal_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_liberal_influence_10 }
+			swap_ideas = { remove_idea = social_liberal_influence_10 add_idea = social_liberal_influence_7 }
+		}
+	}
+}
+
+increase_social_democrat_influence_by_1 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			swap_ideas = { remove_idea = social_democrat_influence_3 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			swap_ideas = { remove_idea = social_democrat_influence_2 add_idea = social_democrat_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			swap_ideas = { remove_idea = social_democrat_influence_1 add_idea = social_democrat_influence_2 }
+		}
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+			add_ideas = social_democrat_influence_1
+		}
+	}
+}
+
+increase_social_democrat_influence_by_2 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			swap_ideas = { remove_idea = social_democrat_influence_3 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			swap_ideas = { remove_idea = social_democrat_influence_2 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			swap_ideas = { remove_idea = social_democrat_influence_1 add_idea = social_democrat_influence_3 }
+		}
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+			add_ideas = social_democrat_influence_2
+		}
+	}
+}
+
+increase_social_democrat_influence_by_3 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_10 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_9 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			swap_ideas = { remove_idea = social_democrat_influence_3 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			swap_ideas = { remove_idea = social_democrat_influence_2 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			swap_ideas = { remove_idea = social_democrat_influence_1 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+			add_ideas = social_democrat_influence_3
+		}
+	}
+}
+
+decrease_social_democrat_influence_by_1 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			remove_ideas = social_democrat_influence_1
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			swap_ideas = { remove_idea = social_democrat_influence_2 add_idea = social_democrat_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			swap_ideas = { remove_idea = social_democrat_influence_3 add_idea = social_democrat_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_8 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+			swap_ideas = { remove_idea = social_democrat_influence_10 add_idea = social_democrat_influence_9 }
+		}
+	}
+}
+
+decrease_social_democrat_influence_by_2 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			remove_ideas = social_democrat_influence_1
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			remove_ideas = social_democrat_influence_2
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			swap_ideas = { remove_idea = social_democrat_influence_3 add_idea = social_democrat_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_7 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+			swap_ideas = { remove_idea = social_democrat_influence_10 add_idea = social_democrat_influence_8 }
+		}
+	}
+}
+
+decrease_social_democrat_influence_by_3 = {
+	custom_effect_tooltip = TT_social_democrat_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_social_democrat_influence = no }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_1 }
+			remove_ideas = social_democrat_influence_1
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_2 }
+			remove_ideas = social_democrat_influence_2
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_3 }
+			remove_ideas = social_democrat_influence_3
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_4 }
+			swap_ideas = { remove_idea = social_democrat_influence_4 add_idea = social_democrat_influence_1 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_5 }
+			swap_ideas = { remove_idea = social_democrat_influence_5 add_idea = social_democrat_influence_2 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_6 }
+			swap_ideas = { remove_idea = social_democrat_influence_6 add_idea = social_democrat_influence_3 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_7 }
+			swap_ideas = { remove_idea = social_democrat_influence_7 add_idea = social_democrat_influence_4 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_8 }
+			swap_ideas = { remove_idea = social_democrat_influence_8 add_idea = social_democrat_influence_5 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_9 }
+			swap_ideas = { remove_idea = social_democrat_influence_9 add_idea = social_democrat_influence_6 }
+		}
+		if = {
+			limit = { has_idea = social_democrat_influence_10 }
+			swap_ideas = { remove_idea = social_democrat_influence_10 add_idea = social_democrat_influence_7 }
+		}
+	}
+}
+
+increase_progressive_influence_by_1 = {
+	custom_effect_tooltip = TT_progressive_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_9 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_8 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_7 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			swap_ideas = { remove_idea = progressive_influence_3 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			swap_ideas = { remove_idea = progressive_influence_2 add_idea = progressive_influence_3 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			swap_ideas = { remove_idea = progressive_influence_1 add_idea = progressive_influence_2 }
+		}
+		if = {
+			limit = { has_any_progressive_influence = no }
+			add_ideas = progressive_influence_1
+		}
+	}
+}
+
+increase_progressive_influence_by_2 = {
+	custom_effect_tooltip = TT_progressive_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_9 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_8 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_7 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			swap_ideas = { remove_idea = progressive_influence_3 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			swap_ideas = { remove_idea = progressive_influence_2 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			swap_ideas = { remove_idea = progressive_influence_1 add_idea = progressive_influence_3 }
+		}
+		if = {
+			limit = { has_any_progressive_influence = no }
+			add_ideas = progressive_influence_2
+		}
+	}
+}
+
+increase_progressive_influence_by_3 = {
+	custom_effect_tooltip = TT_progressive_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_10 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_9 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_8 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_7 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			swap_ideas = { remove_idea = progressive_influence_3 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			swap_ideas = { remove_idea = progressive_influence_2 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			swap_ideas = { remove_idea = progressive_influence_1 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_any_progressive_influence = no }
+			add_ideas = progressive_influence_3
+		}
+	}
+}
+
+decrease_progressive_influence_by_1 = {
+	custom_effect_tooltip = TT_progressive_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_progressive_influence = no }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			remove_ideas = progressive_influence_1
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			swap_ideas = { remove_idea = progressive_influence_2 add_idea = progressive_influence_1 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			swap_ideas = { remove_idea = progressive_influence_3 add_idea = progressive_influence_2 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_3 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_7 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_8 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+			swap_ideas = { remove_idea = progressive_influence_10 add_idea = progressive_influence_9 }
+		}
+	}
+}
+
+decrease_progressive_influence_by_2 = {
+	custom_effect_tooltip = TT_progressive_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_progressive_influence = no }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			remove_ideas = progressive_influence_1
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			remove_ideas = progressive_influence_2
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			swap_ideas = { remove_idea = progressive_influence_3 add_idea = progressive_influence_1 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_2 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_3 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_7 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+			swap_ideas = { remove_idea = progressive_influence_10 add_idea = progressive_influence_8 }
+		}
+	}
+}
+
+decrease_progressive_influence_by_3 = {
+	custom_effect_tooltip = TT_progressive_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_progressive_influence = no }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_1 }
+			remove_ideas = progressive_influence_1
+		}
+		if = {
+			limit = { has_idea = progressive_influence_2 }
+			remove_ideas = progressive_influence_2
+		}
+		if = {
+			limit = { has_idea = progressive_influence_3 }
+			remove_ideas = progressive_influence_3
+		}
+		if = {
+			limit = { has_idea = progressive_influence_4 }
+			swap_ideas = { remove_idea = progressive_influence_4 add_idea = progressive_influence_1 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_5 }
+			swap_ideas = { remove_idea = progressive_influence_5 add_idea = progressive_influence_2 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_6 }
+			swap_ideas = { remove_idea = progressive_influence_6 add_idea = progressive_influence_3 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_7 }
+			swap_ideas = { remove_idea = progressive_influence_7 add_idea = progressive_influence_4 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_8 }
+			swap_ideas = { remove_idea = progressive_influence_8 add_idea = progressive_influence_5 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_9 }
+			swap_ideas = { remove_idea = progressive_influence_9 add_idea = progressive_influence_6 }
+		}
+		if = {
+			limit = { has_idea = progressive_influence_10 }
+			swap_ideas = { remove_idea = progressive_influence_10 add_idea = progressive_influence_7 }
+		}
+	}
+}
+
+increase_democratic_socialist_influence_by_1 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_3 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_2 add_idea = democratic_socialist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_1 add_idea = democratic_socialist_influence_2 }
+		}
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+			add_ideas = democratic_socialist_influence_1
+		}
+	}
+}
+
+increase_democratic_socialist_influence_by_2 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_3 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_2 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_1 add_idea = democratic_socialist_influence_3 }
+		}
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+			add_ideas = democratic_socialist_influence_2
+		}
+	}
+}
+
+increase_democratic_socialist_influence_by_3 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_3 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_2 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_1 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+			add_ideas = democratic_socialist_influence_3
+		}
+	}
+}
+
+decrease_democratic_socialist_influence_by_1 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			remove_ideas = democratic_socialist_influence_1
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_2 add_idea = democratic_socialist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_3 add_idea = democratic_socialist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_10 add_idea = democratic_socialist_influence_9 }
+		}
+	}
+}
+
+decrease_democratic_socialist_influence_by_2 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			remove_ideas = democratic_socialist_influence_1
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			remove_ideas = democratic_socialist_influence_2
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_3 add_idea = democratic_socialist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_10 add_idea = democratic_socialist_influence_8 }
+		}
+	}
+}
+
+decrease_democratic_socialist_influence_by_3 = {
+	custom_effect_tooltip = TT_democratic_socialist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_democratic_socialist_influence = no }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_1 }
+			remove_ideas = democratic_socialist_influence_1
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_2 }
+			remove_ideas = democratic_socialist_influence_2
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_3 }
+			remove_ideas = democratic_socialist_influence_3
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_4 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_4 add_idea = democratic_socialist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_5 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_5 add_idea = democratic_socialist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_6 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_6 add_idea = democratic_socialist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_7 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_7 add_idea = democratic_socialist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_8 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_8 add_idea = democratic_socialist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_9 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_9 add_idea = democratic_socialist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = democratic_socialist_influence_10 }
+			swap_ideas = { remove_idea = democratic_socialist_influence_10 add_idea = democratic_socialist_influence_7 }
+		}
+	}
+}
+
+increase_communist_influence_by_1 = {
+	custom_effect_tooltip = TT_communist_influence_will_increase_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			swap_ideas = { remove_idea = communist_influence_3 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			swap_ideas = { remove_idea = communist_influence_2 add_idea = communist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			swap_ideas = { remove_idea = communist_influence_1 add_idea = communist_influence_2 }
+		}
+		if = {
+			limit = { has_any_communist_influence = no }
+			add_ideas = communist_influence_1
+		}
+	}
+}
+
+increase_communist_influence_by_2 = {
+	custom_effect_tooltip = TT_communist_influence_will_increase_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			swap_ideas = { remove_idea = communist_influence_3 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			swap_ideas = { remove_idea = communist_influence_2 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			swap_ideas = { remove_idea = communist_influence_1 add_idea = communist_influence_3 }
+		}
+		if = {
+			limit = { has_any_communist_influence = no }
+			add_ideas = communist_influence_2
+		}
+	}
+}
+
+increase_communist_influence_by_3 = {
+	custom_effect_tooltip = TT_communist_influence_will_increase_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_10 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_9 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			swap_ideas = { remove_idea = communist_influence_3 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			swap_ideas = { remove_idea = communist_influence_2 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			swap_ideas = { remove_idea = communist_influence_1 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_any_communist_influence = no }
+			add_ideas = communist_influence_3
+		}
+	}
+}
+
+decrease_communist_influence_by_1 = {
+	custom_effect_tooltip = TT_communist_influence_will_decrease_by_1
+	hidden_effect = {
+		if = {
+			limit = { has_any_communist_influence = no }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			remove_ideas = communist_influence_1
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			swap_ideas = { remove_idea = communist_influence_2 add_idea = communist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			swap_ideas = { remove_idea = communist_influence_3 add_idea = communist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_8 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_10 }
+			swap_ideas = { remove_idea = communist_influence_10 add_idea = communist_influence_9 }
+		}
+	}
+}
+
+decrease_communist_influence_by_2 = {
+	custom_effect_tooltip = TT_communist_influence_will_decrease_by_2
+	hidden_effect = {
+		if = {
+			limit = { has_any_communist_influence = no }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			remove_ideas = communist_influence_1
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			remove_ideas = communist_influence_2
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			swap_ideas = { remove_idea = communist_influence_3 add_idea = communist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_7 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_10 }
+			swap_ideas = { remove_idea = communist_influence_10 add_idea = communist_influence_8 }
+		}
+	}
+}
+
+decrease_communist_influence_by_3 = {
+	custom_effect_tooltip = TT_communist_influence_will_decrease_by_3
+	hidden_effect = {
+		if = {
+			limit = { has_any_communist_influence = no }
+		}
+		if = {
+			limit = { has_idea = communist_influence_1 }
+			remove_ideas = communist_influence_1
+		}
+		if = {
+			limit = { has_idea = communist_influence_2 }
+			remove_ideas = communist_influence_2
+		}
+		if = {
+			limit = { has_idea = communist_influence_3 }
+			remove_ideas = communist_influence_3
+		}
+		if = {
+			limit = { has_idea = communist_influence_4 }
+			swap_ideas = { remove_idea = communist_influence_4 add_idea = communist_influence_1 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_5 }
+			swap_ideas = { remove_idea = communist_influence_5 add_idea = communist_influence_2 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_6 }
+			swap_ideas = { remove_idea = communist_influence_6 add_idea = communist_influence_3 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_7 }
+			swap_ideas = { remove_idea = communist_influence_7 add_idea = communist_influence_4 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_8 }
+			swap_ideas = { remove_idea = communist_influence_8 add_idea = communist_influence_5 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_9 }
+			swap_ideas = { remove_idea = communist_influence_9 add_idea = communist_influence_6 }
+		}
+		if = {
+			limit = { has_idea = communist_influence_10 }
+			swap_ideas = { remove_idea = communist_influence_10 add_idea = communist_influence_7 }
+		}
+	}
+}

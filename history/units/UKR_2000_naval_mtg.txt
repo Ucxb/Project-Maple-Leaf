@@ -1,0 +1,81 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Wijskowo-Morski"
+		naval_base = 11670
+		task_force = {
+			name = "Wijskowo-Morski"
+			location = 11670
+	
+			ship = { name = "Hetman Sahaydachniy" definition = frigate equipment = { frigate_2 = { amount = 1 owner = UKR }}}
+			ship = { name = "Foxtrot" definition = submarine equipment = { submarine_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Vinnytsia" definition = corvette equipment = { corvette_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Grisha 2" definition = corvette equipment = { corvette_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Grisha 2" definition = corvette equipment = { corvette_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Pryluky" definition = corvette equipment = { corvette_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Matka 2" definition = corvette equipment = { corvette_1 = { amount = 1 owner = UKR }}}
+			ship = { name = "Tarantul II A" definition = corvette equipment = { corvette_2 = { amount = 1 owner = UKR }}}
+			ship = { name = "Tarantul II B" definition = corvette equipment = { corvette_2 = { amount = 1 owner = UKR }}}
+			ship = { name = "Pauk 1" definition = corvette equipment = { corvette_2 = { amount = 1 owner = UKR }}}
+			ship = { name = "Pauk 2" definition = corvette equipment = { corvette_2 = { amount = 1 owner = UKR }}}
+		}
+		
+	}
+	
+	### Air OOB ###
+	air_wings = {
+		259 = {
+			#Su-27
+			jet_multirole_equipment_3 = {
+				owner = "UKR" 
+				amount = 11
+			}
+	
+		}
+		201 = {
+			#MiG-29A - If  80s equipment is added should be downgraded.
+			jet_multirole_equipment_3 = {
+				owner = "UKR" 
+				amount = 8
+			}
+	
+		}
+		202 = {
+			#MiG-29A - If  80s equipment is added should be downgraded.
+			jet_multirole_equipment_3 = {
+				owner = "UKR" 
+				amount = 18
+			}
+		}
+		89 = {
+			#MiG-29A - If  80s equipment is added should be downgraded.
+			jet_multirole_equipment_3 = {
+				owner = "UKR" 
+				amount = 7
+			}
+		}
+		197 = {
+			#MiG-29A - If  80s equipment is added should be downgraded.
+			jet_multirole_equipment_3 = {
+				owner = "UKR" 
+				amount = 5
+			}
+		}
+		197 = {
+			#Su-25
+			jet_attack_equipment_2 = {
+				owner = "UKR" 
+				amount = 29
+			}
+		}
+		199 = {
+			#Su-24 - If tactical bombers are added, switch to that tech.
+			jet_attack_equipment_2 = {
+				owner = "UKR" 
+				amount = 8
+			}
+		}
+	}
+	
+}

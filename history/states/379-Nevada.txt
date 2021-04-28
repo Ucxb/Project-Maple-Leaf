@@ -1,0 +1,47 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		oil=6.000
+		steel=2.000
+	}
+
+	history={
+		owner = DSR
+		buildings = {
+			infrastructure = 4
+			air_base = 9
+			industrial_complex = 2
+
+		}
+		add_core_of = USA
+		add_core_of = DSR
+		victory_points = {
+			4607 5 
+		}
+		victory_points = {
+			4736 1 
+		}
+		victory_points = {
+			7827 1 
+		}
+		victory_points = {
+			7879 1 
+		}
+		victory_points = {
+			10591 1 
+		}
+		victory_points = {
+			4816 1 
+		}
+
+	}
+
+	provinces={
+		1862 4799 4816 7756 7827 7879 10591 12399 12425 
+	}
+	manpower=2019002
+	buildings_max_level_factor=1.000
+	state_category=state_level_5
+}

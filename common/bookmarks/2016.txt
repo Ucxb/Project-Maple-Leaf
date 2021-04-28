@@ -1,0 +1,78 @@
+bookmarks = {
+	bookmark = {	#Modern Day
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 2016.6.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "USA"
+	
+		"PRC"={
+			history = "PRC_BLITZKRIEG_DESC"
+			ideology = communist
+			ideas={
+				idea_PRC_chinese_socialism
+				idea_united_nations_security_council_member
+			}			
+		}
+		"FRA"={
+			history = "FRA_BLITZKRIEG_DESC"
+			ideology = conservative
+			ideas = {
+				idea_eu_member
+				idea_united_nations_security_council_member
+			}
+		}
+		"GER"={
+			history = "GER_BLITZKRIEG_DESC"
+			ideology = social_democrat
+			ideas = {
+				idea_GER_german_legacy
+				idea_eu_member
+				GER_bundeswehr_shortcomings
+			}
+		}
+		"JAP"={
+			history = "JAP_BLITZKRIEG_DESC"
+			ideology = social_liberal
+			ideas = {
+				idea_JAP_emperor_akihito
+				japanese_article_9
+			}
+		}
+		"SOV"={
+			history = "SOV_BLITZKRIEG_DESC"
+			ideology = reactionary
+			ideas = {
+				idea_united_nations_security_council_member
+				idea_eu_sanctions
+			}
+		}
+		"ENG"={
+			history = "ENG_BLITZKRIEG_DESC"
+			ideology = social_democrat
+			ideas = {
+				ENG_queen_elizabeth_2
+				idea_eu_member
+				idea_united_nations_security_council_member
+			}
+		}
+		"USA"={
+			history = "USA_BLITZKRIEG_DESC"
+			ideology = social_liberal
+			ideas = {
+				idea_USA_political_establishment
+				american_militarism
+				idea_united_nations_security_council_member
+			}
+		}
+		
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

@@ -1,0 +1,17 @@
+add_namespace = benelux_news
+
+#Dissolution of the Federation
+news_event = {
+	id = benelux_news.1
+	title = benelux_news.1.t
+	desc = benelux_news.1.d
+	picture = GFX_dissolution_of_benelux
+
+	major = yes
+	is_triggered_only = yes
+
+	option = {
+		name = benelux_news.1.o1
+		trigger = { original_tag = BEZ }
+	}
+}

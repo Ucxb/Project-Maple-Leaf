@@ -1,0 +1,35 @@
+add_namespace = benelux
+
+#Dissolution of the Federation of Benelux
+country_event = {
+	id = benelux.1
+	title = benelux.1.t
+	desc = benelux.1.d
+	picture = GFX_dissolution_of_benelux
+	trigger = {
+		tag = BEZ
+		date > 2000.01.05
+		date < 2000.01.30
+	}
+
+	option = {
+		name = benelux.1.o1 #It was only inevitable
+		leave_faction = yes
+		release = BEL
+		release = HOL
+		release = GER
+		release = LUX
+		HOL = { change_tag_from = BEZ } 
+		ai_chance = { factor = 10 }
+		news_event = {
+			hours = 6
+			id = benelux_news.1
+		}
+	}
+	option = {
+		name = benelux.1.o2 #We must not falter
+		add_political_power = -500
+		add_stability = -0.5
+		ai_chance = { factor = 90 }
+	}
+}

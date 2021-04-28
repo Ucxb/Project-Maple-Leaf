@@ -1,0 +1,18 @@
+state={
+	id=955
+	name="STATE_955"
+	state_category = 4
+	history = {
+		owner = TEX
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+		}
+	}
+	provinces={
+		3875 12848 
+	}
+	manpower=402981
+	buildings_max_level_factor=1.000
+}

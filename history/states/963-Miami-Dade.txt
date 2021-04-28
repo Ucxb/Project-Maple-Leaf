@@ -1,0 +1,19 @@
+state={
+	id=963
+	name="STATE_963"
+	state_category = 8
+	provinces={
+		1843 1913 9834 
+	}
+	history = {
+		owner = USA
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 2
+			infrastructure = 7
+		}
+	}
+	manpower=3182572
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,19 @@
+state={
+	id=961
+	name="STATE_961"
+	state_category = 2
+	history = {
+		owner = PAZ
+		add_core_of = USA
+		add_core_of = PAZ
+		buildings = {
+			infrastructure = 2
+
+		}
+	}
+	provinces={
+		4760 
+	}
+	manpower=31821
+	buildings_max_level_factor=1.000
+}

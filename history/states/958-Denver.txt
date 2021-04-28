@@ -1,0 +1,19 @@
+state={
+	id=958
+	name="STATE_958"
+	state_category = 7
+	history = {
+		owner = PAZ
+		add_core_of = USA
+		add_core_of = PAZ
+		buildings = {
+			arms_factory = 2
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1658 1827 3869 10588 
+	}
+	manpower=1573712
+	buildings_max_level_factor=1.000
+}

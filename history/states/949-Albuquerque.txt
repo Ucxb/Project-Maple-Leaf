@@ -1,0 +1,17 @@
+state={
+	id=949
+	name="STATE_949"
+	state_category = 6
+	history = {
+		owner = NMX
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 6
+		}
+	}
+	provinces={
+		4975 10642 12552 12684 
+	}
+	manpower=128127
+	buildings_max_level_factor=1.000
+}

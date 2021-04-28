@@ -1,0 +1,20 @@
+state={
+	id=962
+	name="STATE_962"
+	state_category = 5
+	provinces={
+		10352 10380 10407 
+	}
+	manpower=1407925
+	history = {
+		owner = CSA
+		add_core_of = CSA
+		add_core_of = USA
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 5
+			dockyard = 2
+		}
+	}
+	buildings_max_level_factor=1.000
+}

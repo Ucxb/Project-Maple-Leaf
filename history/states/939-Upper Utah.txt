@@ -1,0 +1,18 @@
+state={
+	id=939
+	name="STATE_939"
+	history = {
+		owner = DSR
+		add_core_of = DSR
+		add_core_of = USA
+		buildings = {
+			infrastructure = 3
+		}
+	}
+	provinces={
+		7888 12561 12633 
+	}
+	manpower=431721
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

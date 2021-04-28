@@ -1,0 +1,18 @@
+state={
+	id=952
+	name="STATE_952"
+	state_category = 8
+	history = {
+		owner = TEX
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 3
+			infrastructure = 8
+		}
+	}
+	provinces={
+		805 2082 3960 4577 5001 5085 6968 9829 9920 10778 10861 
+	}
+	manpower=5738192
+	buildings_max_level_factor=1.000
+}

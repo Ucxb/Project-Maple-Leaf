@@ -1,0 +1,1108 @@
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+}
+
+continent = {
+	name = europe
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.dds"
+			"gfx/leaders/Europe/general2.dds"
+			"gfx/leaders/Europe/general3.dds"
+			"gfx/leaders/Europe/general4.dds"
+			"gfx/leaders/Europe/general5.dds"
+			"gfx/leaders/Europe/general6.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.dds"
+			"gfx/leaders/Europe/admiral2.dds"
+			"gfx/leaders/Europe/admiral3.dds"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		democratic_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		progressive = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		reactionary = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		monarchist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+				"gfx/leaders/Europe/politician_fascist1.dds"
+				"gfx/leaders/Europe/politician_fascist2.dds"
+			}
+		}
+		islamist = {
+			male = { 
+				"gfx/leaders/Europe/politician_islamist1.dds"
+				"gfx/leaders/Europe/politician_islamist2.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = north_america
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.dds"
+			"gfx/leaders/Europe/general2.dds"
+			"gfx/leaders/Europe/general3.dds"
+			"gfx/leaders/Europe/general4.dds"
+			"gfx/leaders/Europe/general5.dds"
+			"gfx/leaders/Europe/general6.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.dds"
+			"gfx/leaders/Europe/admiral2.dds"
+			"gfx/leaders/Europe/admiral3.dds"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		democratic_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		progressive = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		reactionary = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		monarchist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+				"gfx/leaders/Europe/politician_fascist1.dds"
+				"gfx/leaders/Europe/politician_fascist2.dds"
+				"gfx/leaders/Europe/politician_fascist3.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		islamist = {
+			male = { 
+				"gfx/leaders/Europe/politician_islamist1.dds"
+				"gfx/leaders/Europe/politician_islamist2.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = south_america
+	army = {
+		male = {
+			"gfx/leaders/South America/general1.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/South America/general1.dds"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/South America/politician_communist1.dds"
+			}
+		}
+		democratic_socialist = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		progressive = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		reactionary = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		monarchist = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/South America/politician1.dds"
+				"gfx/leaders/South America/politician2.dds"
+				"gfx/leaders/South America/politician3.dds"
+				"gfx/leaders/South America/politician4.dds"
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+		islamist = {
+			male = { 
+				"gfx/leaders/South America/politician_islamist1.dds" 
+				"gfx/leaders/South America/politician_islamist2.dds" 
+			}
+			female = {
+				"gfx/leaders/South America/politician_female1.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = australia
+	army = {
+		male = {
+			"gfx/leaders/Europe/general1.dds"
+			"gfx/leaders/Europe/general2.dds"
+			"gfx/leaders/Europe/general3.dds"
+			"gfx/leaders/Europe/general4.dds"
+			"gfx/leaders/Europe/general5.dds"
+			"gfx/leaders/Europe/general6.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/admiral1.dds"
+			"gfx/leaders/Europe/admiral2.dds"
+			"gfx/leaders/Europe/admiral3.dds"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		democratic_socialist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		progressive = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		reactionary = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		monarchist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Europe/politician1.dds"
+				"gfx/leaders/Europe/politician2.dds"
+				"gfx/leaders/Europe/politician3.dds"
+				"gfx/leaders/Europe/politician4.dds"
+				"gfx/leaders/Europe/politician5.dds"
+				"gfx/leaders/Europe/politician6.dds"
+				"gfx/leaders/Europe/politician7.dds"
+				"gfx/leaders/Europe/politician8.dds"
+				"gfx/leaders/Europe/politician9.dds"
+				"gfx/leaders/Europe/politician10.dds"
+				"gfx/leaders/Europe/politician11.dds"
+				"gfx/leaders/Europe/politician12.dds"
+				"gfx/leaders/Europe/politician13.dds"
+				"gfx/leaders/Europe/politician_fascist1.dds"
+				"gfx/leaders/Europe/politician_fascist2.dds"
+				"gfx/leaders/Europe/politician_fascist3.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+		islamist = {
+			male = { 
+				"gfx/leaders/Europe/politician_islamist1.dds"
+				"gfx/leaders/Europe/politician_islamist2.dds"
+			}
+			female = {
+				"gfx/leaders/Europe/politician_female1.dds"
+			}
+		}
+	}
+
+}
+
+continent = {
+	name = africa
+	army = {
+		male = {
+			"gfx/leaders/Africa/general1.dds"
+			"gfx/leaders/Africa/general2.dds"
+			"gfx/leaders/Africa/general3.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Africa/general1.dds"
+			"gfx/leaders/Africa/general2.dds"
+			"gfx/leaders/Africa/general3.dds"
+		}
+	}
+	
+	political = {
+		communist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		democratic_socialist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		progressive = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		social_democrat = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		social_liberal = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		market_liberal = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		conservative = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		reactionary = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		nationalist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		monarchist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+		fascist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+				"gfx/leaders/Africa/general2.dds"
+				"gfx/leaders/Africa/general3.dds"
+			}
+		}
+		islamist = {
+			male = {
+				"gfx/leaders/Africa/politician1.dds"
+				"gfx/leaders/Africa/politician2.dds"
+				"gfx/leaders/Africa/politician3.dds"
+			}
+		}
+	}
+
+
+}
+
+continent = {
+	name = asia
+	army = {
+		male = {
+			"gfx/leaders/Asia/general1.dds"
+			"gfx/leaders/Asia/general2.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Asia/general1.dds"
+			"gfx/leaders/Asia/general2.dds"
+		}
+	}
+
+	political = {
+		communist = {
+			male = { 
+				"gfx/leaders/Asia/politician_communist1.dds"
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		democratic_socialist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		progressive = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		social_democrat = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		social_liberal = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		market_liberal = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		conservative = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		reactionary = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		monarchist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+				"gfx/leaders/Asia/politician_monarchist1.dds"
+				"gfx/leaders/Asia/politician_monarchist2.dds"
+			}
+		}
+		nationalist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+		fascist = {
+			male = { 
+				"gfx/leaders/Asia/politician1.dds"
+				"gfx/leaders/Asia/politician2.dds"
+				"gfx/leaders/Asia/general1.dds"
+				"gfx/leaders/Asia/general2.dds"
+			}
+		}
+		islamist = {
+			male = { 
+				"gfx/leaders/Asia/politician2.dds"
+			}
+		}
+	}	
+}

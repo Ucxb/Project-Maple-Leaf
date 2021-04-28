@@ -1,0 +1,22 @@
+
+state={
+	id=925
+	name="STATE_925"
+
+	history={
+		owner = CUL
+		add_core_of = CUL
+		add_core_of = USA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1832 4778 4838 12124 13268 
+	}
+	manpower=128521
+	buildings_max_level_factor=1.000
+}

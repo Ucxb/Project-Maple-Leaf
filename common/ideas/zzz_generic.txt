@@ -1,0 +1,18 @@
+ideas = {
+	country = {
+		black_monday = {
+			allowed = {
+				always = no
+			}	
+			picture = GFX_black_monday
+			removal_cost = -1
+
+			modifier = {
+				political_power_cost = 1
+				consumer_goods_factory = 0.25
+				conscription_factor = -0.45
+				local_resources_factor = -0.4
+			}
+		}
+	}
+}

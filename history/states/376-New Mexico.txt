@@ -1,0 +1,35 @@
+
+state={
+	id=376
+	name="STATE_376"
+	resources={
+		steel=5.000
+	}
+
+	history={
+		owner = NMX
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			arms_factory = 2
+			air_base = 6
+
+		}
+		add_core_of = USA
+		add_core_of = NMX
+		victory_points = {
+			4975 20 
+		}
+		victory_points = {
+			12791 2 
+		}
+
+	}
+
+	provinces={
+		2102 
+	}
+	manpower=31482
+	buildings_max_level_factor=1.000
+	state_category=state_level_8
+}

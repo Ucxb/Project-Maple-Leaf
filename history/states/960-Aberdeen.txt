@@ -1,0 +1,16 @@
+state={
+	id=960
+	name="STATE_960"
+	state_category = 3
+	provinces={
+		4880 7862 10569 10595 12620 12667 
+	}
+	manpower=348192
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	buildings_max_level_factor=1.000
+}

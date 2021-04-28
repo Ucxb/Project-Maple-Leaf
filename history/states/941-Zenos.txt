@@ -1,0 +1,25 @@
+state={
+	id=941
+	name="STATE_941"
+	resources = {
+		oil = 8.000
+		steel = 2.000
+	}
+	history = {
+		owner = DSR
+		add_core_of = USA
+		add_core_of = DSR
+		buildings = {
+			industrial_complex = 3
+			arms_factory = 1
+			infrastructure = 8
+			air_base = 2
+		}
+	}
+	provinces={
+		1972 10645 10914 
+	}
+	manpower=482148
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

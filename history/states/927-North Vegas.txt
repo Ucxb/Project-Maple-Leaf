@@ -1,0 +1,23 @@
+state={
+	id=927
+	name="STATE_927"
+	history = {
+		owner = DSR
+		add_core_of = USA
+		add_core_of = CAL
+		add_core_of = DSR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 7
+		}
+		victory_points = {
+			13267 20
+		}
+		set_demilitarized_zone = yes
+	}
+	provinces={
+		13266 13267 
+	}
+	manpower=213840
+	buildings_max_level_factor=1.000
+}

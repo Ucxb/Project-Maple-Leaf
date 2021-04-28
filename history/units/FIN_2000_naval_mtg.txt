@@ -1,0 +1,62 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {
+		name = "Merivoimat"
+		naval_base = 11105
+		task_force = {
+			name = "Merivoimat"
+			location = 11105
+	
+			ship = { name = "Rauma" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+				
+			ship = { name = "Raahe" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+	
+			ship = { name = "Porvoo" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+				
+			ship = { name = "Naantali" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+				
+			ship = { name = "Hamina" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+				
+			ship = { name = "Hämeenmaa" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+				
+			ship = { name = "Uusimaa" definition = corvette equipment = { corvette_2 = { amount = 1 owner = FIN }}}
+		}
+		
+	}
+	
+	### Air OOB ###
+	air_wings = {
+		148 = {
+			#F/A-18C
+			jet_multirole_equipment_3 = {
+				owner = "FIN" 
+				amount = 20
+			}
+	
+		}
+		150 = {
+			#F/A-18C
+			jet_multirole_equipment_3 = {
+				owner = "FIN" 
+				amount = 20
+			}
+	
+		}
+		111 = {
+			#F/A-18C
+			jet_multirole_equipment_3 = {
+				owner = "FIN" 
+				amount = 20
+			}
+	
+		}
+		111 = {
+			#J 35 Draken
+			jet_multirole_equipment_1 = {
+				owner = "FIN" 
+				amount = 47
+			}
+	
+		}
+	}}

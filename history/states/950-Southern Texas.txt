@@ -1,0 +1,19 @@
+state={
+	id=950
+	name="STATE_950"
+	state_category = 5
+	history = {
+		owner = TEX
+		buildings = {
+			arms_factory = 1
+			dockyard = 1
+			infrastructure = 6
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		1927 2019 2042 4884 5061 6785 6987 12369 12782 
+	}
+	manpower=2492822
+	buildings_max_level_factor=1.000
+}

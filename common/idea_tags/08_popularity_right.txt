@@ -1,0 +1,13 @@
+idea_categories = {
+	popularity_right_wing = {
+		slot = popularity_CON
+		slot = popularity_REAC
+		slot = popularity_MON
+		slot = popularity_NAT
+		slot = popularity_FAS
+		slot = popularity_ISL
+		
+		cost = 3000
+		removal_cost = -1
+	}
+}

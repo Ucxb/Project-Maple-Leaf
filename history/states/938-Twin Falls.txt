@@ -1,0 +1,19 @@
+state={
+	id=938
+	name="STATE_938"
+	history = {
+		owner = DSR
+		add_core_of = DSR
+		add_core_of = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+		}
+	}
+	provinces={
+		9695 12535 12607 
+	}
+	manpower=472812
+	buildings_max_level_factor=1.000
+	state_category = town
+}

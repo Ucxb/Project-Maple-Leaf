@@ -1,0 +1,16 @@
+state={
+	id=930
+	name="STATE_930"
+	history = {
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces={
+		1857 4863 7883 13269 13270 13271 
+	}
+	manpower=192318
+	buildings_max_level_factor=1.000
+	state_category = rural
+}
